@@ -1,0 +1,92 @@
+#contenedorColumna{
+    width: 250px;
+    min-height: 400px;
+    max-height: max-content;
+    background-color: rgba(255, 255, 255, 0.366);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+}
+#infoColumna{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+#contenedorBotonesColumna{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+/* Botones ---------------------------------- */
+.botones{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    margin: 2px;
+}
+.botones:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.botones:active{
+    background-color: white;
+}
+/* ----- */
+
+#formularioAddTarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#formularioAddTarea>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#formularioAddTarea>div>input{
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+#formularioAddTarea>button{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(43, 222, 43);
+}
+#formularioAddTarea>button:hover{
+    background-color: rgb(29, 187, 29);
+    cursor: pointer;
+}
+#formularioAddTarea>button:active{
+    border: 2px solid black;
+}
+#contenedorTareas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
